@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meubles personnalisé écoresponsables</title>
+    
+    <link href="https://fonts.cdnfonts.com/css/fredoka-one" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/normalise.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/customRange.css">
+        <link rel="stylesheet" href="css/responssive.css">
+        <link rel="icon" href="pictures/stoolBlue.png">
+        
+</head>
+<body>
+    
+    <header>
+    
+
+    <input type="checkbox" id="navBurgerCheck"/>
+        <label for="navBurgerCheck"><i class="fa-solid fa-bars"></i></label>
+    
+        <nav>
+            <a href="#">à propos</a>
+            <a href="#">meubles</a>
+            <a href="#"><img src="pictures/logoMOMO.svg" alt="the logo whit monini floriane face a woman with glass smiling slightly"/></a>
+            <a href="#">Contact</a>
+            <a href="#">Newsletters</a>
+        </nav>
+        
+    </header>
+    
+    <main>
+        
+        <!--The stickys elements-->
+
+         <input type="checkbox" id='checkOptions' />
+         <label for="checkOptions" class="checkOptionsLabel"><i class="fa-solid fa-chevron-right"></i></label>
+         
+        <aside class="seachOptions">
+        
+         <form method="post">
+               
+             <h3>RÉGLAGES</h3>  
+               
+<details>
+  <summary>MATIÉRES <i class="fa-solid fa-chevron-up"></i></summary>
+  <input type="checkbox" id="plastiques" name="plastiques" value="plastiques">
+  <label for="plastiques">PLASTIQUES</label>
+  <input type="checkbox" id="laines" name="laines" value="laines">
+  <label for="laines">LAINES</label>
+</details>
+
+
+<label for="price">PRIX</label>
+
+<input
+  type="range"
+  name="price"
+  id="price"
+  min="0"
+  max="100"
+  step="5"
+  value="5"/>
+  
+  <div class="priceTag">
+<p>0€</p>
+<p>100€</p>
+  </div>
+  
+  <details>
+  <summary>COULEURS <i class="fa-solid fa-chevron-up"></i></summary>
+  <input type="checkbox" id="redColorOption" name="redColorOption" value="redColorOption">
+  <label for="redColorOption">ROUGES</label>
+  <img src="pictures/colorSampleRed.svg" alt="a Sample of red colors">
+  
+  <input type="checkbox" id="greenColorOption" name="greenColorOption" value="greenColorOption">
+  <label for="greenColorOption">VERTES</label>
+  <img src="pictures/colorSampleGreen.svg" alt="a Sample of green colors">
+  
+  <input type="checkbox" id="blueColorOption" name="blueColorOption" value="blueColorOption">
+  <label for="blueColorOption">BLEUS</label>
+  <img src="pictures/colorSampleBlue.svg" alt="a Sample of blue colors">
+  
+</details>
+  
+
+
+               
+        <label for="query">Recherches</label>
+        <div class="seachInput">
+        <input type="text" id="query" name="query" placeholder="Tables...">
+        <label for="searchSubmit"><i class="fa-solid fa-magnifying-glass"></i></label>
+        <button type="submit" id='searchSubmit'></button>
+        </div>
+</form>
+            
+        </aside>
+       
+       
+        
+        <div class="socialNetwork">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <!------------------------>
+        
+        <section class="introduction">
+            
+            <div class="titleh1">
+            <h1>des meubles <span>personnalisés</span> &<strong>écoresponsables</strong></h1>
+            <img src="pictures/lineLoop.svg" alt="an horizontal line who loop to right and come back">
+            </div>
+            
+            <a  href="#presentation"><img class="arrowDown" src="pictures/arrow-down.svg" alt="an arrow pointing down"></a>
+            
+                 <img class="stool" src="pictures/stoolWhiteBlue.png" alt="a white blue stool">
+                      <img class="stool"  src="pictures/stoolPink.png" alt="a pink stool">
+            
+        </section>
+        
+        <section class="presentation" id='presentation'>
+            <img src="pictures/stoolDarkBlue.png" alt="a dark blue stool">
+            
+            <div>
+
+                <h2>Nos valeurs<br/>
+                <small>lorem ipsum</small></h2>  
+         
+                
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
+                
+             
+            </div>
+            
+        </section>
+        
+        <img class="lineLoopSeparation" src="pictures/lineLoop.svg" alt="an horizontal line who loop to right and come back">
+        
+        <section class="stoolList">
+            
+                <h2>Nos meubles<br/>
+                <small>lorem ipsum</small></h2> 
+                
+                <div>
+                    
+                   <div>
+                    <img src="pictures/stoolLightPink.png" alt="a light pink stool">
+                    <p>TABOURET #1</p>
+                    <p class="stoolListPrice">183 €</p>
+                    <input type="checkbox" class="heart" id="heart"/>
+                    <div>
+                        
+                    <label for="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></label>
+                   
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i><p>ACHETER</p></a>
+                    </div>
+                    
+                    </div>
+                    
+                    <div>
+                    <img src="pictures/stoolLightBlue.png" alt="a light blue stool">
+                    <p>TABOURET #2</p>
+                    <p class="stoolListPrice">183 €</p>
+                    <input type="checkbox" class="heart" id="heart2">
+                    <div>
+                    <label for="heart2"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></label>
+                   <a href="#"><i class="fa-solid fa-cart-shopping"></i><p>ACHETER</p></a>
+                    </div>
+                      </div>
+                    
+                    <div>
+                    <img src="pictures/stoolWhite.png" alt="a white stool">
+                    <p>TABOURET #3</p>
+                    <p class="stoolListPrice">183 €</p>
+                    <input type="checkbox" class="heart" id="heart3">
+                    <div>
+                    <label for="heart3"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></label>
+                         <a href="#"><i class="fa-solid fa-cart-shopping"></i><p>ACHETER</p></a>
+                    </div>
+                      </div>
+                    
+                    <div>
+                    <img src="pictures/stoolBlue.png" alt="a blue stool">
+                    <p>TABOURET #4</p>
+                    <p class="stoolListPrice">183 €</p>
+                    <input type="checkbox" class="heart" id="heart4">
+                    <div>
+                    <label for="heart4"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></label>
+                          <a href="#"><i class="fa-solid fa-cart-shopping"></i><p>ACHETER</p></a>
+                    </div>
+                      </div>
+                    
+                </div>
+                    
+                    
+                    
+                </div>
+                
+            
+        </section>
+    
+        <img class="lineLoopSeparation" src="pictures/lineLoop.svg" alt="an horizontal line who loop to right and come back">
+        
+        <section class="contactForm">
+            
+            <h2>CONTACTEZ-NOUS <small>lorem ipsum</small></h2>
+           
+            
+            <form action="post">
+            
+            <input type="text" name="contactLastName" placeholder="Nom"/>  
+            <input type="text" name="contactFirstName" placeholder="Prénom"/>  
+            <input type="email" name="contactEmail" placeholder="E-mail"/>  
+            <textarea name="contactMessage" placeholder="Message"></textarea>
+            
+             <div> 
+             <div><i class="fa-solid fa-arrows-rotate"></i><input type="reset" value="Effacer"></div>
+             <div><input type="submit" value="Envoyer"><i class="fa-solid fa-chevron-right"></i></div>
+             </div>
+                
+            </form>
+            
+        </section>
+    
+    <section class="newsLetter">
+        
+        <h2>ABONNEZ-VOUS <small>lorem ipsum</small></h2>
+     
+        
+        <form action="post">
+        <input type="email" name="newslettersMail" placeholder="Adresse e-mail">
+            
+        <input type="submit" value="Rejoignez-nous">
+        </form>
+        
+        <p>Voir notre <a href="#">Politique de Confidentialité</a></p>
+        
+    </section>
+    
+    </main>
+    
+    <footer>
+        
+        <div>
+            <img src="pictures/florianeFooter.svg" alt="text Monnini Floriane">
+            <p>3 rue des Lys 68200 Mulhouse</p>
+            <a href="mailto:contact@meuble.com">contact@meuble.com</a>
+            <a href="tel:+33389426116"><i class="fa-solid fa-phone"></i> +33 (0) 3 89 42 61 16</a>
+        </div>
+        
+        <div>
+            <h3>À PROPOS</h3>
+            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <a href="#">mentions légales</a>
+            <div><img src="pictures/logoMOMOWhite.svg" alt="the logo whit monini floriane face a woman with glass smiling slightly"/><p>© 2023 MONNINI. All rights reserved.</p></div>
+        </div>
+        
+        
+    </footer>
+    
+<script src="https://kit.fontawesome.com/117792c172.js" crossorigin="anonymous"></script>    
+</body>
+</html>

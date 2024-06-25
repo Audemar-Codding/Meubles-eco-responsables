@@ -1,0 +1,270 @@
+@media (max-width : 780px) and (min-width : 481px) {
+    
+     /*======== ONE ========*/
+    header{
+        nav{width: 90% !important;align-items: center;}
+        a:nth-child(3){display:none;}
+        
+    }
+    
+    
+    /*======== TWO ========*/
+    .introduction{
+        .titleh1 {width: 80% !important;}
+        h1,strong,h1 > span { font-size: clamp(2rem, 7vw, 50rem);}
+          
+    span{letter-spacing: 1.5vw;}
+    
+     img.stool {
+transform: scale(0.5)!important;
+    
+    &:nth-last-child(+2){top:0 !important;}
+    &:last-child {
+    transform: scale(0.3)!important;
+    right:-10rem!important;
+    bottom:0!important;
+}
+}
+    
+    
+    }
+    
+    
+     /*======== THREE ========*/
+    .presentation {
+        width:95% !important ;
+        flex-direction: column;
+        justify-content:center !important;
+        gap:2rem;
+        
+        
+    img { width: 60%!important;transform:translateX(-10%)!important; }
+    
+    div { width: 80%!important; }
+        
+    }
+    
+     /*======== FOUR ========*/
+    .stoolList {
+        
+    
+        div div{
+    width: 48%!important;
+
+    a p,div i,.stoolListPrice {font-size: 1rem !important;}
+    
+    }
+    
+   
+    }
+    
+    /*======= FIVE ========*/
+    .contactForm {
+      h2{width:50%;}
+      
+        width:80%!important;
+   
+    }
+    
+     /*====== SIX ========*/
+     
+     .newsLetter {
+      h2{width:50% !important;}
+      
+      form{
+        width:80%!important;
+      }
+   
+    }
+     
+      /*====== SEVEN ========*/
+     footer
+     {
+     
+      div:first-child {
+    width: 30% !important;
+
+}
+
+div:last-child {
+    width: 45% !important;
+   
+}
+         
+     }
+     
+     
+}
+
+/*=======================================================*/
+/*===================== MOBILE =========================*/
+/*=====================================================*/
+
+@media (max-width : 480px) {
+    
+     /*======== ONE ========*/
+    header{
+        label{display:block;
+        
+    }
+        height:fit-conteant;
+        
+        nav{display:none;}
+        a:nth-child(3){display:none;}
+        
+        #navBurgerCheck:checked + label{
+            
+            background: var(--primary);
+            
+            i{color:white}
+        }
+        
+        #navBurgerCheck:checked ~ nav 
+        {
+            display:flex;
+            flex-direction: column;
+            width:100%;
+            
+            a{
+            padding: 1rem 0;
+            width:100%;
+            text-align: center;
+            color:white;
+            background: var(--primary);
+   
+            &:hover {
+                       color:var(--primary);
+            background: white;
+        }
+            
+        }
+        }
+        
+    }
+    
+    /*================= MODAL =================*/
+    .seachOptions {
+
+    display:flex;
+    position:fixed;
+    z-index:10;
+    width: 90%;
+    }
+    
+    #checkOptions:checked ~ .seachOptions {left:5% !important;}
+    #checkOptions:checked + .checkOptionsLabel {left: unset !important;}
+    
+    .checkOptionsLabel {
+            z-index: 10 !important;
+            padding:2rem;
+       i{ font-size:2rem;} 
+    }
+    
+
+/*==================== SOCIAL NETWORK =========================*/
+
+.socialNetwork {
+position:sticky;
+filter: drop-shadow(0 0 5px white);
+top:2rem;    
+    flex-direction:row !important;
+    gap: 1rem;
+    
+    a {
+    
+    
+    &:hover {color:var(--secondaryInteract);}
+      }
+i{font-size:2rem!important;}
+
+}
+
+    
+    
+    
+    /*======== TWO ========*/
+     .introduction{
+        .titleh1 {width: 90% !important;}
+        h1,strong,h1 > span { font-size: clamp(2rem, 7vw, 50rem);}
+          
+    span{letter-spacing: 1.5vw;}
+    
+     img.stool {
+transform: scale(0.5)!important;
+    
+    &:nth-last-child(+2){top:0 !important;}
+    &:last-child {
+    transform: scale(0.3)!important;
+    right:-10rem!important;
+    bottom:0!important;
+}
+}
+    
+    
+    }
+    
+    
+     /*======== THREE ========*/
+    .presentation {
+        width:95% !important ;
+        flex-direction: column;
+        justify-content:center !important;
+        gap:2rem;
+        
+        
+    img { width: 60%!important;transform:translateX(-10%)!important; }
+    
+    div { width: 90%!important; }
+        
+    }
+    
+     /*======== FOUR ========*/
+    .stoolList {
+        position:relative;
+        margin: 10rem auto !important;
+    
+        div div{
+    width: 95%!important;
+
+    a p,div i,.stoolListPrice {font-size: 1rem !important;}
+    
+    img {width:60% !important;}
+    }
+    
+   
+    }
+    
+    /*======= FIVE ========*/
+    .contactForm {
+      h2{width:85%;}
+      
+        width:80%!important;
+   
+    }
+    
+     /*====== SIX ========*/
+     
+     .newsLetter {
+      h2{width:65% !important;}
+      
+      form{
+        width:80%!important;
+        flex-direction:column;
+        input{width: 100%!important}
+      }
+   
+    }
+     
+      /*====== SEVEN ========*/
+     footer
+     {
+     height:fit-content!important;
+     flex-direction:column;
+     padding: 2rem;
+     
+div {width: 90%!important;}
+         
+     }
+     
+     
+}
